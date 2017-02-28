@@ -339,5 +339,52 @@ table {
 ================================================== */
 
 
+
+/* Misc
+================================================== */
+.relative { position: relative; }
+.half-bottom { margin-bottom: 10px !important; }
+.add-bottom { margin-bottom: 20px !important; }
+.right { float:right; position: relative; }
+.left { float: left; }
+.inline { display: inline; }
+.center { text-align: center; }
+.relative { position: relative; }
+.align_right { text-align:right }
+.align_left { text-align: left; }
+p.warning { text-align: center; font-weight: bold; padding-top: 10px; }
+.container div.mobile_only, span.mobile_only, .mobile_only { display:none; }
+.no_border { border: none !important; }
+.extra_padding { padding-top: 4px; }
+div.hidden { display: none; }
+div.is-absolute {
+  position: absolute !important;
+  top: 0;
+  margin-top: 0;
+}
+
+
 /* Logo & Header
 ================================================== */
+.header, .header-inner {
+    width: 100%;
+}
+.header-inner {
+    height: 95px;
+}
+.logo img {
+    width: 116px;
+}
+.menu li {
+    display: inline-block;
+    color: white;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.hero {
+    min-height: 670px;
+    background: url(/assets/hero_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
